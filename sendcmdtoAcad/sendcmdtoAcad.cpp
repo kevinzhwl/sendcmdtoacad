@@ -42,7 +42,9 @@ void printUsage()
     TEXT("| sendcmdtoacad \n")\
     TEXT("| : is send acad-cmd to Acad Application to execute\n")\
     TEXT("| example:\n")\
-    TEXT("| sendcmdtoacad \"hxtunload c:\demo.arx\"\n")\
+    TEXT("| sendcmdtoacad \"arx l demo.arx\"\n")\
+    TEXT("| sendcmdtoacad \"arx u demo.arx\"\n")\
+    TEXT("| sendcmdtoacad \"hxtunload c:\\demo.arx\"\n")\
     TEXT("=================================================\n")\
     TEXT("\n");
 
